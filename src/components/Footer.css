@@ -1,0 +1,24 @@
+.footer{
+    background:#242424;
+    color:white;
+
+}
+
+.footer-links{
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    grid-gap: 10px;
+    list-style-type: none;
+    
+ 
+}
+.link{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+   font-size: 16px;
+}
